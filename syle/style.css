@@ -79,9 +79,9 @@ body {
 
 .apresentacao-links {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     gap: 32px;
 }
 
@@ -97,7 +97,7 @@ body {
     justify-content: center;
     gap: 16px;
     border: 2px solid var(--cor-terciaria);
-    width: 50%;
+    width: 10%;
     text-align: center;
     border-radius: 8px;
     font-size: 1.5rem;
@@ -117,12 +117,12 @@ body {
 }
 
 .rodape {
-    padding: 24px;
+    padding: 5.6px;
     color: var(--cor-primaria);
     background-color: var(--cor-terciaria);
     text-align: center;
     font-family: var(--fonte-secundario);
-    font-size: 1.5rem;
+    font-size: 1.0rem;
     font-weight: 400px;
 }
 
